@@ -1,8 +1,8 @@
 <template>
   <div class="h-100vh items-center w-full">
-    <div class="flex">
+    <div class="flex-row lg:flex">
       <div
-        class="lg:w-1/3 align-middle items-center 2xl:w-1/5 xl:w-1/4 pt-8 pb-4 px-4"
+        class="lg:w-1/3 align-middle items-center 2xl:w-1/5 xl:w-1/4 pt-8 pb-4 px-4 mb-2 lg:mb-0 w-full"
       >
         <div class="my-auto sticky top-2">
           <img
@@ -13,7 +13,7 @@
           <about-card :about="about" />
         </div>
       </div>
-      <div class="lg:w-2/3 2xl:w-4/5 xl:w-3/4 pt-8 pb-4 px-4">
+      <div class="lg:w-2/3 2xl:w-4/5 xl:w-3/4 pt-8 pb-4 px-4 w-full">
         <projects-card :projects="projects" />
       </div>
     </div>
