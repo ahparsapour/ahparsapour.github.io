@@ -1,7 +1,7 @@
 ---
 name: 'امیرحسین پارساپور'
 titles: ['Full-Stack Web-Developer', 'UI/UX Designer']
-image: '/me.jpeg'
+image: 'https://res.cloudinary.com/ahparsapour/image/upload/v1640966611/me_leytob.jpg'
 email: 'ah.parsapour@gmail.com'
 twitter: '@ahparsapour'
 github: '@ahparsapour'
