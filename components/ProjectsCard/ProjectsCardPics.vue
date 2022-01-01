@@ -1,5 +1,5 @@
 <template>
-  <div class="table-cell w-1/2 h-full relative">
+  <div class="sm:table-cell w-full sm:w-1/2 h-1/2 sm:h-full relative">
     <div class="absolute inset-0 h-full w-full 2xl:px-8 xl:px-6 px-0">
       <div class="h-full w-full relative project-pics">
         <div

@@ -3,7 +3,7 @@
     class="project-card rounded-3xl w-full with-bg with-border mx-auto mt-4 mb-4 p-3 pb-0"
   >
     <div class="text-center font-semibold text-2xl text-fill mb-4">
-      پروژه ها
+      پروژه های انجام شده
     </div>
     <div class="w-full custom-h mt-3 flex" dir="ltr">
       <div
@@ -14,9 +14,9 @@
         @mouseenter="stopAutoScroll()"
         @mouseleave="startAutoScroll()"
       >
-        <div class="table h-full w-full" dir="rtl">
-          <div class="table-row">
-            <projects-card-text :name="e.name" :desc="e.desc" />
+        <div class="sm:table h-full w-full" dir="rtl">
+          <div class="h-full sm:table-row">
+            <projects-card-text :name="e.name" :desc="e.desc" :link="e.link"/>
             <projects-card-pics :pics="e.pics" />
           </div>
         </div>
